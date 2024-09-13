@@ -23,7 +23,7 @@ public class BasePage {
     @FindBy(xpath = "//*[@id=\"login-btn\"]")
     private WebElement logInButton;
 
-    @FindBy(xpath = "//*[@id=\"login-btn\"]")
+    @FindBy(xpath = "//*[@id="user_name"]/font/font")
     private WebElement usersName;
 
     //Methods
